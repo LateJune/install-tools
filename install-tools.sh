@@ -6,7 +6,7 @@ sleep 5
 
 echo [+] Installing apt packages
 sleep 2
-sudo apt install vim net-tools python3 python python3-pip traceroute locate smbclient git -y
+sudo apt install vim net-tools python3 python python3-pip traceroute locate smbclient git exiftool -y
 
 if [ -d ./didier-stevens-scripts ]
         then
